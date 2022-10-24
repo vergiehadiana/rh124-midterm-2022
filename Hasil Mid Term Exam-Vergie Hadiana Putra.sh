@@ -311,8 +311,6 @@ adduser mssql-server --system --no-create-home --shell=/sbin/nologin
 yum install https://rpmfind.net/linux/fedora/linux/development/rawhide/Everything/x86_64/os/Packages/f/finger-0.17-73.fc37.x86_64.rpm -y
 finger mssql-server
 
-userdel mssql-server
-
 echo -ne '########################	 	(96%)\r'
 sleep 1
 echo -ne '\n'
